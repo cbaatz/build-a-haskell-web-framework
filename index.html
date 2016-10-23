@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title</title>
+	<meta charset="utf-8">
+	<style>
+    @import url(https://fonts.googleapis.com/css?family=Assistant:800);
+		@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+		@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+      body { font-family: 'PT Sans'; color: #333; }
+      h1, h2, h3 { font-family: 'Assistant'; font-weight: 800; }
+      img { width: 100%; }
+      .small { width: 70%; display: inline-block; }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+      .remark-inline-code { font-weight: bold; }
+      .remark-code { scroll-x: }
+      .hljs { padding: 0.5em 0 !important; }
+      .remark-code-line { padding: 0 0.5em; }
+      .remark-code-line-highlighted { background-color: #555; }
+    </style>
+</head>
+<body>
+    <script src="resources/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        sourceUrl: 'SLIDES.md',
+        ratio: "4:3",
+        navigation: {
+          scroll: false,
+        },
+        countIncrementalSlides: false,
+        highlightLines: true,
+        highlightSpans: true,
+        highlightStyle: "sunburst",
+        highlightLanguage: "text",
+      });
+    </script>
+  </body>
+</html>
+</body>
+</html>
