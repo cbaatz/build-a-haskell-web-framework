@@ -13,6 +13,8 @@ class: center, middle
 HaskellerZ meetup &mdash; 27 October 2016<br>
 Carl Baatz
 
+https://github.com/cbaatz/build-a-haskell-web-framework
+
 ---
 
 ## Objectives
